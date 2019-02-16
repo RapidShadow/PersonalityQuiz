@@ -1,25 +1,67 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel=“stylesheet” href=“style.css”>
-		<title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+		   <link rel="shortcut icon" href="images/favicon.png" />
+		<title>FuzzBeed Quiz</title>
 	</head>
 	<body>
-		<div>
-			<h2>Do You have any secrets?</h2>
-			<input type="radio" id="q1c1" name="secrets">
-			<label for=”q1c1”>Nope, what you see is what you get.</label>
+		<img src="images/logo.png" width = 140px>
+		<hr>
+			<h1> <center>See what animal was your past life, Based on these 3 questions!</center></h1>
+			<hr>
 
-			<input type="radio" id="q1c2" name="secrets">
-			<label for=”q1c2”>Not really… beside the huge one I won’t talk about</label>
+ 		<div>
+			<h2>Whats your favorite food in this list?</h2>
+			<input type="radio"id="q1c1" name="food">
+			<label for="q1c1">Pizza</label><br>
 
-			<input type="radio" id="q1c3" name="secrets">
-			<label for=”q1c3”>Yeah, just a few</label>
+			<input type="radio" id="q1c2" name="food">
+			<label for="q1c2">Eggplants</label><br>
 
-			<input type="radio" id="q1c4" name="secrets">
-			<label for=”q1c4”>I can barely keep track of all the secrets I keep</label>
+			<input type="radio" id="q1c3" name="food">
+			<label for="q1c3">Popcorn</label><br>
 
+			<input type="radio" id="q1c4" name="food">
+			<label for="q1c4">Who eats food LMAO?</label>
 		</div>
-		<script src=“script.js”></script>
+
+		<div>
+			<h2>Which flower taste the best</h2>
+			<input type ="radio"id="q2c1" name="flowers">
+			<label for="q2c1">Roses</label><br>
+
+			<input type="radio"id="q2c2" name="flowers">
+			<label for="q2c2">Daisies</label><br>
+
+	  	<input type ="radio"id="q2c3" name="flowers">
+			<label for="q2c3">Tulips</label><br>
+
+	  	<input type ="radio"id="q2c4" name="flowers">
+			<label for="q2c4">I'm not vegan.</label><br>
+		</div>
+
+    <div>
+			<h2>Choose a place to eat at.</h2>
+			<input type="radio" id="q3c1" name = "place">
+			<label for="q3c1">Chipotle</label><br>
+
+			<input type="radio" id="q3c2" name = "place">
+			<label for="q3c2">McDonald</label><br>
+
+    	<input type="radio" id="q3c3" name = "place">
+			<label for="q3c3">Olive Garden</label><br>
+
+    	<input type="radio" id="q3c4" name = "place">
+			<label for="q3c4">The garden.</label><br>
+		</div>
+     <div><br><br>
+			 <button type="button" id="submit-button">Get My Results</button>
+			 <button type="button" id="reset-button">Reset Quiz</button>
+		 </div>
+		 <div id="result">
+		 </div>
+
+		<script src="script.js"></script>
 	</body>
 </html>
