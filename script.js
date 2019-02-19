@@ -17,7 +17,7 @@ function processResults() {
 
   function getPersonality() {
     let foodChoice = document.querySelector('input[name="food"]:checked');
-    // console.log(toppingChoice.id)
+    //console.log(foodChoice.id)
     let flowersChoice = document.querySelector('input[name="flowers"]:checked');
     // console.log(weaponChoice.id)
     let placeChoice = document.querySelector('input[name="place"]:checked');
@@ -38,7 +38,7 @@ function processResults() {
       return "Octopus"
     } else if (totalPoints <= 5) {
       return "Dragon"
-    } else if (totalPoints <=7) {
+    } else if (totalPoints <=8) {
       return "Unicorn"
     }
      else{
@@ -59,19 +59,19 @@ let foodPoints = {
      Pizza: 1,
      Eggplants: 2,
      Popcorn: 3,
-     "Who-eats-food-LMAO?": 0
+     Lmao: 0
 }
 
 let flowersPoints = {
      Roses: 4,
      Daisies: 4,
      Tulips: 4,
-     "I'm-not-vegan.": 2
+     Vegan: 2
 }
 
 let placePoints = {
-  Chitpotle: 2,
+  Chipotle: 0,
   McDonald: 1,
-  "Olive-Garden": 0,
-  "The-garden": 4
+  Olive: 0,
+  garden: 4
 }
